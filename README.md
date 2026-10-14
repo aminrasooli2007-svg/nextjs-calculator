@@ -1,36 +1,85 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# NOVA Calculator 🧮
 
-## Getting Started
+A modern, responsive calculator built with **Next.js** and **Tailwind CSS**. NOVA combines a clean interface, smooth interactions, and essential mathematical operations in a stylish dark-themed design.
 
-First, run the development server:
+## ✨ Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- ➕ Basic arithmetic operations: addition, subtraction, multiplication, and division
+- 💯 Percentage calculations
+- ➖ Positive and negative number toggle
+- 🔢 Decimal number support
+- 🌓 Dark and light theme toggle
+- 🎨 Modern UI with gradient effects and glassmorphism
+- 📱 Responsive design for different screen sizes
+- ⚡ Fast and interactive user experience
+
+## 🛠️ Tech Stack
+
+- **Next.js** — React framework
+- **React** — UI components and state management
+- **Tailwind CSS** — Styling and responsive layout
+- **JavaScript** — Calculator logic
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+Make sure you have Node.js and npm installed.
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/aminrasooli2007-svg/nextjs-calculator.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd nextjs-calculator
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+## 📂 Project Structure
+
+```text
+my-app/
+├── app/
+│   ├── layout.js
+│   ├── page.jsx
+│   └── globals.css
+├── public/
+├── package.json
+└── README.md
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+*Note: Your actual file names may differ depending on your project setup.*
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 🎯 Purpose
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+This project was built to practice React state management, event handling, conditional styling, and building responsive user interfaces with Next.js and Tailwind CSS.
 
-## Learn More
+## 👨‍💻 Author
 
-To learn more about Next.js, take a look at the following resources:
+**Amin Rasooli**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- GitHub: [@aminrasooli2007-svg](https://github.com/aminrasooli2007-svg)
+- LinkedIn: [Amin Rasooli](https://linkedin.com/in/amin-rasooli-8325b4408)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+If you find this project useful, consider giving it a ⭐ on GitHub!
